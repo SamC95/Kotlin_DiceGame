@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">dicegame_w1854525</string>
+    <string name="select_dice_to_re_roll">Select Dice to Re roll</string>
+    <string name="score">Score</string>
+    <string name="computer">Computer</string>
+    <string name="player">Player</string>
+    <string name="h_0_c_0">H:0/C:0</string>
+    <string name="winMessage">You Win!</string>
+    <string name="loseMessage">You Lose</string>
+    <string name="reRollMsg">All Re-Rolls Used, Scoring Automatically</string>
+    <string name="throwMsg">You must throw at least once before scoring</string>
+    <string name="new_game">New Game</string>
+    <string name="about">About</string>
+    <string name="set_score">Set Winning Score</string>
+    <string name="random">Random</string>
+    <string name="toggle_computer_strategy">Toggle Computer Strategy</string>
+    <string name="efficient">Efficient</string>
+    <string name="Throw">Throw</string>
+    <string name="ReRoll2">Re-Roll (2)</string>
+    <string name="ReRoll1">Re-Roll (1)</string>
+</resources>

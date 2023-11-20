@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/throwBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Throw"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.191"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.853" />
+
+    <Button
+        android:id="@+id/scoreBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.751"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.853" />
+
+    <TextView
+        android:id="@+id/computerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/computer"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <TextView
+        android:id="@+id/playerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/player"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toEndOf="@+id/computerText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <ImageButton
+        android:id="@+id/computerDice1"
+        android:layout_width="55dp"
+        android:layout_height="56dp"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/select_dice_to_re_roll"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/computerText"
+        app:layout_constraintVertical_bias="0.106"
+        app:srcCompat="@drawable/die_face_1_t" />
+
+    <ImageButton
+        android:id="@+id/playerDice1"
+        android:layout_width="55dp"
+        android:layout_height="56dp"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/select_dice_to_re_roll"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerText"
+        app:layout_constraintVertical_bias="0.106"
+        app:srcCompat="@drawable/die_face_1_t" />
+
+    <ImageButton
+        android:id="@+id/computerDice2"
+        android:layout_width="55dp"
+        android:layout_height="56dp"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/select_dice_to_re_roll"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/computerText"
+        app:layout_constraintVertical_bias="0.106"
+        app:srcCompat="@drawable/die_face_2_t" />
+
+    <ImageButton
+        android:id="@+id/playerDice2"
+        android:layout_width="55dp"
+        android:layout_height="56dp"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/select_dice_to_re_roll"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.656"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerText"
+        app:layout_constraintVertical_bias="0.106"
+        app:srcCompat="@drawable/die_face_2_t" />
+
+    <ImageButton
+        android:id="@+id/computerDice3"
+        android:layout_width="55dp"
+        android:layout_height="56dp"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/select_dice_to_re_roll"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/computerText"
+        app:layout_constraintVertical_bias="0.106"
+        app:srcCompat="@drawable/die_face_3_t" />
+
+    <ImageButton
+        android:id="@+id/playerDice3"
+        android:layout_width="55dp"
+        android:layout_height="56dp"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/select_dice_to_re_roll"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerText"
+        app:layout_constraintVertical_bias="0.106"
+        app:srcCompat="@drawable/die_face_3_t" />
+
+    <ImageButton
+        android:id="@+id/computerDice4"
+        android:layout_width="55dp"
+        android:layout_height="56dp"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/select_dice_to_re_roll"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.295"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/computerText"
+        app:layout_constraintVertical_bias="0.106"
+        app:srcCompat="@drawable/die_face_4_t" />
+
+    <ImageButton
+        android:id="@+id/playerDice4"
+        android:layout_width="55dp"
+        android:layout_height="56dp"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/select_dice_to_re_roll"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.819"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerText"
+        app:layout_constraintVertical_bias="0.106"
+        app:srcCompat="@drawable/die_face_4_t" />
+
+    <ImageButton
+        android:id="@+id/computerDice5"
+        android:layout_width="55dp"
+        android:layout_height="56dp"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/select_dice_to_re_roll"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.377"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/computerText"
+        app:layout_constraintVertical_bias="0.106"
+        app:srcCompat="@drawable/die_face_5_t" />
+
+    <ImageButton
+        android:id="@+id/playerDice5"
+        android:layout_width="55dp"
+        android:layout_height="56dp"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/select_dice_to_re_roll"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerText"
+        app:layout_constraintVertical_bias="0.106"
+        app:srcCompat="@drawable/die_face_5_t" />
+
+    <TextView
+        android:id="@+id/scoreTracker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/h_0_c_0"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintStart_toEndOf="@+id/scoreBtn"
+        app:layout_constraintTop_toBottomOf="@+id/scoreBtn"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <!--maxLength is set to avoid any crashes due to the input number being too large-->
+    <EditText
+        android:id="@+id/setScoreNum"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="101"
+        android:maxLength="6"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/scoreTracker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerDice1"
+        app:layout_constraintVertical_bias="0.491" />
+
+    <TextView
+        android:id="@+id/setScoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_score"
+        app:layout_constraintBottom_toTopOf="@+id/scoreTracker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setScoreNum"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/totalWinLoss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/h_0_c_0"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/scoreTracker"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreBtn"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="@string/random"
+        android:textOn="@string/efficient"
+        android:textSize="18sp"
+        android:backgroundTint="@color/red_500"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/setScoreNum"
+        app:layout_constraintEnd_toStartOf="@+id/scoreBtn"
+        app:layout_constraintStart_toEndOf="@+id/throwBtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/toggleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toggle_computer_strategy"
+        app:layout_constraintBottom_toTopOf="@+id/toggleButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

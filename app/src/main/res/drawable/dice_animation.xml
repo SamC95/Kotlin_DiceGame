@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Referenced from the Android developer resources @ developer.android.com -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <animation-list android:id="@+id/selected" android:oneshot="false">
+        <item android:drawable="@drawable/die_face_1_t" android:duration="50" />
+        <item android:drawable="@drawable/die_face_2_t" android:duration="50" />
+        <item android:drawable="@drawable/die_face_3_t" android:duration="50" />
+        <item android:drawable="@drawable/die_face_4_t" android:duration="50" />
+        <item android:drawable="@drawable/die_face_5_t" android:duration="50" />
+        <item android:drawable="@drawable/die_face_6_t" android:duration="50" />
+    </animation-list>
+</selector>
