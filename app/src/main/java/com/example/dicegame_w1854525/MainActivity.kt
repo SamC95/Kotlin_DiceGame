@@ -1,5 +1,3 @@
-// OneDrive Video Recording Link: https://1drv.ms/v/s!AtEdIfJF608d5i9W8-M79Nr9Ojsv?e=0rj9Jh
-
 package com.example.dicegame_w1854525
 
 import android.content.Intent
