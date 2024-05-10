@@ -6,14 +6,14 @@ By [Sam Clark](https://github.com/SamC95)
 This project was coursework for my second year module: Mobile Application Development -- at the University of Westminster
 
 ## Contents
-* [Project Brief]()
-* [Approach]()
-* [Technologies]()
-* [Implementation]()
-* [Key Learnings]()
-* [Achievements]()
-* [Challenges]()
-* [Conclusions]()
+* [Project Brief](https://github.com/SamC95/Kotlin_DiceGame#project-brief)
+* [Approach](https://github.com/SamC95/Kotlin_DiceGame#approach)
+* [Technologies](https://github.com/SamC95/Kotlin_DiceGame#technologies)
+* [Implementation](https://github.com/SamC95/Kotlin_DiceGame#implementation)
+* [Key Learnings](https://github.com/SamC95/Kotlin_DiceGame#key-learnings)
+* [Achievements](https://github.com/SamC95/Kotlin_DiceGame#achievements)
+* [Challenges](https://github.com/SamC95/Kotlin_DiceGame#challenges)
+* [Conclusions](https://github.com/SamC95/Kotlin_DiceGame#conclusions)
 
 ## Project Brief
 ### Core Aims
