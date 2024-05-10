@@ -109,7 +109,7 @@ the rotation and the state of the application including the score should be full
 
 Since the project is very pre-defined in terms of expected behaviour and game logic, the primary approach was to implement these features exactly as described in the brief.
 
-However, I did decide to try to gain some experience utilising basic animations for when a dice is selected by the player so that they would move up to reflect that they are active.
+However, I did decide to try to gain some experience utilising basic animations for when the user decides to select a dice to not re-roll, so that they would move up to reflect that they are active.
 This was not in the design brief but seemed like a natural way to display this to the user whilst also learning an extra aspect of Kotlin development.
 
 Another aspect was the requirement in the brief to implement an efficient strategy for the Computer AI to utilise in the game. I will discuss this further in the Implementation section below.
@@ -120,6 +120,8 @@ Another aspect was the requirement in the brief to implement an efficient strate
 ![Static Badge](https://img.shields.io/badge/Android%20Studio-%233DDC84?style=for-the-badge&logo=Android%20Studio&logoColor=white)
 
 ## Implementation
+
+### Computer Strategy
 
 As mentioned in the Approach section, one aspect of the program was the implementation of some logic for the Computer in how it decides to handle re-rolls.
 The regular requirement was for an entirely random logic for the Computer, however this section expected the Computer to be able to see the current score of the game
@@ -167,6 +169,17 @@ taking more risk to catch up.
             remainingRolls--
         }
 ```
+
+### Application Screenshots
+
+<p float="left">
+  <img src="https://github.com/SamC95/Kotlin_DiceGame/assets/132593571/db03ae07-34a4-475b-8b93-5e8364d68e5b" width="250" />
+  <img src="https://github.com/SamC95/Kotlin_DiceGame/assets/132593571/04815f5a-2269-4a6c-b7ab-4f5a402b54c0" width="250" />
+  <img src="https://github.com/SamC95/Kotlin_DiceGame/assets/132593571/26a13939-a602-4d89-848d-0d92a3dbc5ab" width="250" />
+  <img src="https://github.com/SamC95/Kotlin_DiceGame/assets/132593571/15abb784-c473-48a4-b6f9-2b41d6f8452c" width="250" />
+  <img src="https://github.com/SamC95/Kotlin_DiceGame/assets/132593571/b483a033-8bd5-451f-9a3c-d4f1627e8522" width="250" />
+  <img src="https://github.com/SamC95/Kotlin_DiceGame/assets/132593571/63710038-c7f8-400c-8cee-083a2b0b912d" width="250" />
+</p>
 
 ## Key Learnings
 * First project using Kotlin and Android Studio, so I learnt the basics on utilising this language and designing the UI utilising XML.
